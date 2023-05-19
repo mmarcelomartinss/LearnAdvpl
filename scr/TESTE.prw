@@ -9,7 +9,7 @@
     /*/
 User Function TESTE()
 
-Local cMessagem := "Teste"
-MSGALERT( cMessagem, "Teste" )
+Local cMSG := "Teste"
+MSGALERT( cMSG, "Teste" )
     
 Return
