@@ -33,7 +33,7 @@ Axcadastro("ZZD","Cadastro de chamados")
 	aadd(aCores , {"ZZD->ZZD_STATUS = '4' "                           , "BR_PRETO"})
 	aadd(aCores , {"ZZD->ZZD_STATUS = '5' "                           , "BR_VERMELHO"})
 
-	mBrowse(6,1,22,75,"ZZD",,,,,,aCores)
+    mBrowse(,,,,"ZZD",,,,,,aCores)
 
 Return
 
