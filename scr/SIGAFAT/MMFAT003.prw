@@ -8,7 +8,7 @@
     @version 1.0
     @see (https://tdn.totvs.com/pages/releaseview.action?pageId=23889136)
     /*/
-Function U_MMFAT003() //ADV003
+Function U_MMFAT003()
 
 Axcadastro("ZZC","Cadastro de tipos de chamado") 
     

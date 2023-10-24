@@ -10,7 +10,7 @@
     @see (https://tdn.totvs.com/pages/releaseview.action?pageId=24346981)
     @History 22/05/2023, mmartins, fonte modificado para adicionar legendas.
     /*/
-Function U_MMFAT004() //ADV004
+Function U_MMFAT004()
 /*
 Axcadastro("ZZD","Cadastro de chamados")
 */

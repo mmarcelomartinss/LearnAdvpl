@@ -8,7 +8,7 @@
     @version 1.0
     @see (https://tdn.totvs.com/pages/releaseview.action?pageId=23889136)
     /*/
-Function U_MMFAT001() //ADV001
+Function U_MMFAT001()
 
 Axcadastro("ZZA","Cadastro de Tecnicos")
     
