@@ -7,7 +7,7 @@
 			"name": "TOTVS Language Debug",
 			"program": "${command:AskForProgramName}",
 			"cwb": "${workspaceFolder}",
-			"smartclientBin": "/Applications/smartclient_nexos_prod.app/Contents/MacOS/smartclient",
+			"smartclientBin": "/Applications/smartclient_local.app/Contents/MacOS/smartclient",
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
