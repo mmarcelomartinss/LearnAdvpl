@@ -27,11 +27,11 @@ Axcadastro("ZZD","Cadastro de chamados")
 	aadd(aRotina, {"Legenda"                                          , "U_ADVLEG"   , 0, 6})
 
 // Adiciono as coresr da legenda
-	aadd(aCores , {"ZZD->ZZD_STATUS = '1' .OR. Empty(ZZD->ZZD_STATUS)", "BR_VERDE"})
-	aadd(aCores , {"ZZD->ZZD_STATUS = '2' "                           , "BR_AZUL"})
-	aadd(aCores , {"ZZD->ZZD_STATUS = '3' "                           , "BR_AMARELO"})
-	aadd(aCores , {"ZZD->ZZD_STATUS = '4' "                           , "BR_PRETO"})
-	aadd(aCores , {"ZZD->ZZD_STATUS = '5' "                           , "BR_VERMELHO"})
+	aadd(aCores , {"ZZD->ZZD_STATUS = '1' .OR. Empty(ZZD->ZZD_STATUS)", "BR_VERDE"      })
+	aadd(aCores , {"ZZD->ZZD_STATUS = '2' "                           , "BR_AZUL"       })
+	aadd(aCores , {"ZZD->ZZD_STATUS = '3' "                           , "BR_AMARELO"    })
+	aadd(aCores , {"ZZD->ZZD_STATUS = '4' "                           , "BR_PRETO"      })
+	aadd(aCores , {"ZZD->ZZD_STATUS = '5' "                           , "BR_VERMELHO"   })
 
     mBrowse(,,,,"ZZD",,,,,,aCores)
 
@@ -47,13 +47,11 @@ Return
     /*/
 User Function ADVLEG()
 
-    Local aLegenda := {}
-
-    aadd(aLegenda, {"BR_VERDE"   , "Chamado em aberto"})
-    aadd(aLegenda, {"BR_AZUL"    , "Chamado em atendimento"})
-    aadd(aLegenda, {"BR_AMARELO" , "Chamado aguardando usuario"})
-    aadd(aLegenda, {"BR_PRETO"   , "Chamado encerrado"})
-    aadd(aLegenda, {"BR_VERMELHO", "Chamado em atraso"})
+    aadd(aLegenda, {"BR_VERDE"   , "Chamado em aberto"          })
+    aadd(aLegenda, {"BR_AZUL"    , "Chamado em atendimento"     })
+    aadd(aLegenda, {"BR_AMARELO" , "Chamado aguardando usuario" })
+    aadd(aLegenda, {"BR_PRETO"   , "Chamado encerrado"          })
+    aadd(aLegenda, {"BR_VERMELHO", "Chamado em atraso"          })
 
     BrwLegenda(cCadastro,"Legenda",aLegenda)
     
