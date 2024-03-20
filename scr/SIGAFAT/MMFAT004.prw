@@ -47,7 +47,6 @@ Return
     /*/
 User Function ADVLEG()
 
-    Local aLegenda := {}
 
     aadd(aLegenda, {"BR_VERDE"   , "Chamado em aberto"          })
     aadd(aLegenda, {"BR_AZUL"    , "Chamado em atendimento"     })
