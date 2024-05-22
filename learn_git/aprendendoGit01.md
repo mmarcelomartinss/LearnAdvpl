@@ -12,3 +12,5 @@ https://learngitbranching.js.org
 <li>git push / Empurra ou faz o upload dos arquivo(s) para o Git.</li>
 </ol>
 
+Criei uma nova ***BRANCH*** chamada "bugFixLearnGit" e o proxímo commit vai ser por ela então esta
+linha só vai constar nesta ***BRANCH*** e não vai estar na ***MAIN***.
